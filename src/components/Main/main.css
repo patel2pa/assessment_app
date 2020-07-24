@@ -1,0 +1,58 @@
+.Main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+
+.displayImage{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.images{
+    margin-bottom: 10px;
+    height:350px;
+    max-width: 100%;
+}
+
+
+
+@media only screen and (max-width: 1250px){
+    .Main{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .Main{
+        display:grid;
+        grid-template-columns: 1fr;
+        background-color: black;
+    }
+}
+
+@media only screen and (mad-width: 400px){
+    .Main{
+        display:grid;
+        grid-template-columns: 1fr;
+        background-color: black;
+    }
+    .displayImage{
+        height: 400px;
+        width: 100%;
+        margin: auto;
+        color: blanchedalmond;
+        text-align: center;
+    }
+    .images{
+        margin-bottom: 10px;
+        height:350px;
+        width: 90%;
+    }
+
+}

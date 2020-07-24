@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    background: rgb(50, 104, 168);
+}
+
+.headerImg{
+    height: 55px;
+    width:5%;
+    margin-right: 10px;   
+    margin-top: 10px;
+}
+
+.name{
+    margin-top: 15px;
+    font-style: monospace;
+    font-size: 27px;
+    font-weight: 400;
+    color: antiquewhite
+}
